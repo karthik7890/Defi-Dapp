@@ -1,6 +1,6 @@
 The explanation of each component and the idea of how they work.. as THE CODE IS UNFINISHED AS I RAN INTO SOME ISSUES AND WAS OCCUPIED WITH SOME OTHER THINGS.. no excuses but it is what it is. 
 
-**1. Wallet Connection
+**1. Wallet Connection**
 Overview:
 The wallet connection component allows users to connect their Ethereum wallets (such as MetaMask or WalletConnect) to the application. This enables the application to interact with the blockchain, perform transactions, and fetch account details.
 
@@ -14,7 +14,7 @@ Integration:
 
 The WalletConnector component is added to the main page, allowing users to connect their wallets.
 
-**2. Cryptocurrency Price Charting
+**2. Cryptocurrency Price Charting**
 Overview:
 This component displays the historical and real-time prices of cryptocurrencies using interactive charts. Users can filter the data by day, week, or month to analyze price trends.
 
@@ -27,7 +27,7 @@ Integration:
 
 The PriceChart component is added to the main page. It fetches initial data on component load and updates the chart in real-time using WebSocket connections.
 
-**3. Token Swapping Mechanism
+**3. Token Swapping Mechanism**
 Overview:
 This component allows users to swap ERC-20 tokens directly within the application. It leverages decentralized exchange (DEX) protocols to facilitate token exchanges.
 
@@ -43,10 +43,10 @@ Integration and Deployment
 Directory Structure:
 Ensure the components are organized in their respective folders (/components, /pages, /utils).
 
-Main Page Setup:
+**Main Page Setup:**
 The main page (index.tsx) imports and uses the components, displaying them in a user-friendly layout.
 
-API and WebSocket Utility Functions:
+**API and WebSocket Utility Functions:**
 Utility functions for fetching price data and managing WebSocket connections are placed in the /utils folder.
 
 To learn more about Next.js, take a look at the following resources:
